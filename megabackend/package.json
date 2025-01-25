@@ -1,10 +1,11 @@
 {
   "name": "megabackend",
   "version": "1.0.0",
+  "type": "module",
   "description": "A project that involves both JavaScript and backend development",
-  "main": "index.js",
+  "main": "index.js", 
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "backend",
@@ -12,5 +13,8 @@
     "dedication"
   ],
   "author": "Amit Debnath",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
