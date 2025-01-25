@@ -1,0 +1,16 @@
+{
+  "name": "megabackend",
+  "version": "1.0.0",
+  "description": "A project that involves both JavaScript and backend development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend",
+    "javascript",
+    "dedication"
+  ],
+  "author": "Amit Debnath",
+  "license": "ISC"
+}
